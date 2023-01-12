@@ -13,9 +13,9 @@
 
 3. Menciona al menos tres beneficios de usar CD.
 
-  Entrega rápida
-  Ciclo de retroalimentación rápido
-  Publicaciones de bajo riesgo
+  Entrega rápida, 
+  Ciclo de retroalimentación rápido, 
+  Publicaciones de bajo riesgo y 
   Opciones de liberación flexibles.
 
 
@@ -73,6 +73,7 @@ Con este comando se construye la imagen apartir del dockerfile que esta en la ca
 8. ¿Qué comando se usa para ejecutar un contenedor de Docker desde una imagen de Docker?
 
 El comando run.
+
 docker run <nombre-image>
 
 
@@ -137,6 +138,7 @@ Un pipeline es una secuencia de operaciones automatizadas que normalmente repres
 2. ¿Cuál es la diferencia entre un stage y un step en el pipeline?
 
 Un step es una sola operación que le dice a Jenkins qué hacer mientras que un stage es una separación lógica de steps que agrupa secuencias de pasos conceptualmente distintas.
+
 3. ¿Qué es la sección post en el pipeline de Jenkins?
 
 El Post define una serie de instrucciones de uno o más pasos que se ejecutan al final de la
@@ -181,7 +183,6 @@ Forking workflow significa literalmente crear un nuevo repositorio a partir de o
 1. ¿Qué es el Docker Registry?
 
 Docker Registry es un almacén de imágenes de Docker. Para ser precisos, es una aplicación de servidor sin estado que permite que las imágenes se publiquen (push) y luego se recuperen (pulled).
-
 
 2. ¿Qué es Docker Hub?
 
@@ -242,7 +243,7 @@ El papel de un servicio (Services) de Kubernetes es acceder a una aplicación de
 
 5. ¿Cuál es el comando de Kubernetes para escalar implementaciones?
 
-el comando para esto es kubectl scale, lo cual permite escalar hacia arriba y hacia abajo las
+El comando para esto es kubectl scale, lo cual permite escalar hacia arriba y hacia abajo las
 implementaciones, por ejemplo: 
 
 kubectl scale --replicas 5 deployment calculador-deployment
